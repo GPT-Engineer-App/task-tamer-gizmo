@@ -57,15 +57,15 @@ const Index = () => {
       </motion.h2>
 
       <div className="flex space-x-4 z-10">
-        <Button variant="outline" size="lg" className="group">
+        <Button variant="outline" size="lg" className="group text-white">
           <Sword className="mr-2 h-4 w-4 group-hover:animate-bounce" />
           Play Now
         </Button>
-        <Button variant="outline" size="lg" className="group">
+        <Button variant="outline" size="lg" className="group text-white">
           <Shield className="mr-2 h-4 w-4 group-hover:animate-pulse" />
           Champions
         </Button>
-        <Button variant="outline" size="lg" className="group">
+        <Button variant="outline" size="lg" className="group text-white">
           <Zap className="mr-2 h-4 w-4 group-hover:animate-spin" />
           Abilities
         </Button>
